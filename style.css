@@ -12,7 +12,6 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-direction: space-between;
     box-sizing: border-box;
     background-color: #FFFFFF;
     padding-left: 20px;
@@ -25,28 +24,32 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
-    
+    padding: 20px 20px 20px 0;
+
 
 
 }
 .icon-search{
     margin-left: auto;
-    padding-right: 20px;
+    padding-right: 20px 20px 10px;
 }
 
 .sidebar-nav {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 20px;
+    margin-bottom: auto
+    }
 
-}
+
+
 .sidebar-nav a{
     text-decoration: none;
     color: #000000;
     font-size: 16px;
     position: relative;
+    padding: 5px 0;
     
     
 }
@@ -69,11 +72,17 @@ body{
     text-shadow: 0px 1px 1px rgba(27,28,33,0.31);
     transition: 0.3s;
 }
-.sidebar-bottom img{
-    margin-right: 10px;
-    
-    
+.sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
 }
+.bottom-icons {
+    display: flex;
+    gap: 10px;
+}
+
 .phone{
     font-family: 'TT Lakes Neue trial';
     font-style: Bold;
@@ -81,4 +90,15 @@ body{
     font-size: 24px;
     color: #1B1C21;
     line-height: 32px;
+
+}
+.language a{
+    text-decoration: none;
+ 
+}
+.language{
+    margin-top: 15px;
+    color: #7E7E82;
+    font-weight: 500;
+ 
 }
